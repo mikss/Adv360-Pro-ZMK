@@ -1,5 +1,3 @@
-/ {
-  behaviors {
     mm1: mod_1 {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
@@ -90,7 +88,7 @@
         bindings = <&kp EQUAL>, <&kp RPAR>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
-    mpi: mod_pipe {
+    mdol: mod_pipe {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
         bindings = <&kp BSLH>, <&kp DOLLAR>;
@@ -108,5 +106,3 @@
         bindings = <&kp SLASH>, <&kp ASTERISK>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
-  };
-};
