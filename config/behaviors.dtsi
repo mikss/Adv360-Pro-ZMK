@@ -1,0 +1,112 @@
+/ {
+  behaviors {
+    mm1: mod_1 {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp EXCL>, <&kp N1>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    mm2: mod_2 {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp AT>, <&kp N2>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    mm3: mod_3 {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp HASH>, <&kp N3>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    mm4: mod_4 {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp QUESTION>, <&kp N4>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    mm5: mod_5 {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp PERCENT>, <&kp N5>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    mm6: mod_6 {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp CARET>, <&kp N6>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    mm7: mod_7 {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp AMPERSAND>, <&kp N7>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    mm8: mod_8 {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp LT>, <&kp N8>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    mm9: mod_9 {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp GT>, <&kp N9>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    mm0: mod_0 {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp PIPE>, <&kp N0>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    mmc: mod_colon {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp COLON>, <&kp SEMICOLON>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    mmq: mod_quote {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp DQT>, <&kp SQT>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    mun: mod_underscore {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp COMMA>, <&kp UNDERSCORE>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    mlp: mod_left_parens {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp DOT>, <&kp LPAR>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    mrp: mod_right_parens {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp EQUAL>, <&kp RPAR>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    mpi: mod_pipe {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp BSLH>, <&kp DOLLAR>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    madd: mod_add_sub {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp MINUS>, <&kp PLUS>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    mmul: mod_mul_div {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp SLASH>, <&kp ASTERISK>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+  };
+};
