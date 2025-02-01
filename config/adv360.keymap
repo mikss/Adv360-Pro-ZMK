@@ -78,7 +78,7 @@
             >;
         };
 
-        layer_Custom {
+        layer_coding {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &kp RALT
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans    &trans
