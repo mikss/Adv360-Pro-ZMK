@@ -74,11 +74,11 @@
 
         layer_coding {
             bindings = <
- &trans    &mm1    &mm2    &mm3    &mm4    &mm5            &trans                                                  &trans    &mm6    &mm7    &mm8    &mm9    &mm0  &kp RALT
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans     &mdol
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &mmc      &mmq
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans    &mun    &mlp    &mrp    &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans           &madd   &mmul  &trans  &trans  &kp RGUI
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans     &trans     &trans  &trans  &trans    &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans     &trans     &trans  &trans  &trans  &kp RGUI
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans    &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans     &trans     &trans  &trans  &trans    &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &kp MINUS  &kp EQUAL  &trans  &trans  &kp RALT
             >;
         };
 
